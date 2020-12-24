@@ -12,7 +12,7 @@ for(i = 0; i < drumBtn.length; i++) {
 
 
   document.addEventListener("keydown", function(event) {
-    var key = event.key;
+    var key = event.key.toLowerCase();
 
     playDrums(key);
 
